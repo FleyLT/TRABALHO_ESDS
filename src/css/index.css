@@ -5,18 +5,51 @@
   box-sizing: border-box;
   color: white;
   font-family: "Poppins";
+  transition: all ease-in-out 0.3s;
 }
 
 body {
-  background-color: black;
-  background-image: url("../images/background.webp");
+  background-image: url("../images/fundo.png");
   background-size: cover;
+  backdrop-filter: blur(5px);
+  height: 100vh;
 }
 #top-bar {
-  border: 1px solid red;
+  display: flex;
+  padding: 0 200px 0 200px;
   height: 100px;
+  min-width: 100%;
+  flex-direction: row;
+  gap: 300px;
+  background-color: rgba(0, 0, 0, 0.699);
+  border-bottom: 1px solid black;
+  box-shadow: rgba(52, 50, 50, 0.24) 5px 0px 10px;
 }
 #top-bar img {
-  width: 32px;
-  height: 32px;
+  width: 200px;
+}
+#logo_topbar {
+  display: flex;
+  height: 100%;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+#rotas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ul_rotas {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+#ul_rotas li {
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px;
+}
+#ul_rotas li:hover {
+  background-color: rgba(0, 0, 0, 0.421);
 }
