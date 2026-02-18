@@ -9,8 +9,14 @@
 
 body {
   background-color: black;
+  background-image: url("../images/background.webp");
+  background-size: cover;
 }
 #top-bar {
   border: 1px solid red;
   height: 100px;
+}
+#top-bar img {
+  width: 32px;
+  height: 32px;
 }
