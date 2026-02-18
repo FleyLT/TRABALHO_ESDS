@@ -1,0 +1,50 @@
+#top-bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%; /* não use min-width */
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 200px;
+  gap: 300px;
+
+  background-color: rgba(0, 0, 0, 0.699);
+  border-bottom: 1px solid black;
+  box-shadow: rgba(52, 50, 50, 0.24) 5px 0px 10px;
+}
+#top-bar img {
+  width: 200px;
+}
+#logo_topbar {
+  display: flex;
+  height: 100%;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+#rotas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ul_rotas {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+#ul_rotas li {
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#ul_rotas li:hover {
+  background-color: rgba(0, 0, 0, 0.421);
+}

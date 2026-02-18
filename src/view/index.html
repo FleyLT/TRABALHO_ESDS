@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabalho ESDS</title>
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/topbar-default.css" />
   </head>
   <body>
     <nav id="top-bar">
       <div id="logo_topbar">
-        <img src="../images/logocomIA.png" alt="logo" />
+        <a href="../view/index.html" id="logo_topbar">
+          <img src="../images/logocomIA.png" alt="logo" />
+        </a>
       </div>
       <div id="rotas">
         <ul id="ul_rotas">
@@ -20,7 +23,45 @@
         </ul>
       </div>
     </nav>
-    <div id="copyright">copyright aq, vou fazer ainda</div>
+    <div id="content"></div>
+
+    <div id="extra">
+      <div id="extra-content-logo">
+        <a href="../view/index.html">
+          <img src="../images/logocomIA.png" alt="logo" />
+        </a>
+      </div>
+      <div id="formulario">
+        <input
+          type="text"
+          name="user"
+          id="username"
+          placeholder="Qual seu nome?"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Digite seu email..."
+        />
+        <input
+          type="text"
+          name="assunto"
+          id="assunto"
+          placeholder="Assunto..."
+        />
+        <input
+          type="text"
+          name="message"
+          id="message"
+          placeholder="Escreva aqui sua mensagem..."
+        />
+      </div>
+    </div>
+    <footer id="copyright">
+      Copyrights © 2026. Todos os Direitos Reservados. | Veja nossa Política de
+      Privacidade > <a href="politica_privacidade.html"> clicando aqui</a>.
+    </footer>
   </body>
   <script type="module" src="../scripts/index.js"></script>
 </html>
