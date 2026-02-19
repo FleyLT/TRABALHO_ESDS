@@ -16,7 +16,7 @@ body {
   /* Background */
   background-image: url("../images/fundo.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   backdrop-filter: blur(5px);
